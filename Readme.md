@@ -421,7 +421,7 @@ import { latLongCommunities } from "./communities";
 _./src/index.ts_
 
 ```typescript
-cconst calculateRadiusBasedOnAffectedCases = (comunidad: string, data: any[]) => {
+const calculateRadiusBasedOnAffectedCases = (comunidad: string, data: any[]) => {
   const maxAffected = data.reduce(
     (max, item) => (item.value > max ? item.value : max),
         0
@@ -494,7 +494,7 @@ svg
   .attr("cy", d => aProjection([d.long, d.lat])[1]);
 ```
 
-- In addition to this, we have to modify the circles with respect to the pressed buttons.
+- Lastly, we are going to modify the circles based on the passed data.
 ```diff
 const updateCircles = (data: any[]) => {
   const circles = svg.selectAll("circle");
