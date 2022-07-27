@@ -3,7 +3,7 @@
 Our boss liked a lot the map we have developed, now he wants to focus on Spain affection by City, he wants to
 display a map pinning affected locations and scaling that pin according the number of cases affected, something like:
 
-![Alt text]()
+![Alt text](https://github.com/jamontenegro/d3js-typescript/blob/main/spain_covid.gif)
 
 codesandbox: https://codesandbox.io/s/hopeful-ellis-rlczx
 
